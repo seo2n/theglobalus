@@ -14,7 +14,6 @@ body {
     width: 375px; /* 핸드폰 화면 가로 크기 */
     height: 667px; /* 핸드폰 화면 세로 크기 */
     background-color: #fff;
-    border-radius: 40px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: relative;
@@ -30,30 +29,46 @@ body {
 .swiper-slide {
     display: flex;
     justify-content: center;
+    height: 100vh;
     align-items: center;
     text-align: center;
     font-size: 18px;
     color: white;
-    padding: 20px;
+}
+
+.text {
+    font-size: 1.5rem;
+    color: #333;
 }
 
 /* 각 슬라이드 배경색 */
 .slide1 {
     background-color: #fffac5;
+    overflow: hidden; /* 넘치는 부분 제거 */
+    width: 300px; /* 핸드폰 화면 가로 크기 */
+    height: 667px; /* 핸드폰 화면 세로 크기 */
 }
 
 .slide2 {
     background-color: #fff79f;
+    overflow: hidden; /* 넘치는 부분 제거 */
+
 }
 
 .slide3 {
     background-color: #fffac5;
 }
 
-/* Swiper 버튼과 페이지네이션 */
-.swiper-button-prev,
-.swiper-button-next {
-    color: white;
+.slide4 {
+    background-color: #fff79f;
+}
+
+.slide5 {
+    background-color: #fffac5;
+}
+
+.slide6 {
+    background-color: #fff79f;
 }
 
 .swiper-pagination-bullet-active {

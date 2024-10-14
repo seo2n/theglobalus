@@ -1,6 +1,4 @@
-/* 기본 스타일 */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -8,6 +6,16 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+  .swiper-slide h1 {
+    color: #000000;
+    font-size: 30px;
+  }  
+  
+  /* 특정 텍스트 요소에 적용하기 */
+  .swiper-slide p {
+    color: #000000;
+  }  
 
 /* 핸드폰 모양의 상자 스타일 */
 .phone-frame {
@@ -72,6 +80,117 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: white;
+    background-color: rgb(255, 202, 87);
 }
 
+/* 공통 텍스트 스타일 */
+/* .swiper-slide h1 {
+    font-size: 24px;
+    color: #ffffff;
+} */
+
+/* .swiper-slide p {
+    font-size: 18px;
+    color: #ffffff;
+} */
+
+/* 슬라이드 3에 들어갈 말풍선 스타일 */
+.slide3 .chat-bubble {
+    background-color: #f2c94c; /* 말풍선 색 */
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    max-width: 85%; /* 말풍선 최대 너비 */
+    font-size: 13px;
+    color: #333333; /* 텍스트 색 */
+    line-height: 1.5;
+}
+
+/* 왼쪽 말풍선 (캐릭터) */
+.slide3 .chat-bubble.left {
+    background-color: #ffffff;
+    color: #333333;
+    margin-right: auto;
+    text-align: left;
+}
+
+.slide3 .chat-bubble.left::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    border: 10px solid transparent;
+    border-right-color: #ffffff;
+}
+
+/* 오른쪽 말풍선 */
+.slide3 .chat-bubble.right {
+    background-color: #f2c94c;
+    color: #333333;
+    margin-left: auto;
+    text-align: left;
+}
+
+.slide3 .chat-bubble.right::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    border: 10px solid transparent;
+    border-left-color: #f2c94c;
+}
+
+/* 슬라이드 3 레이아웃 스타일 */
+.slide3 .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 20px;
+}
+
+.slide3 .chat-bubble.right {
+    align-self: flex-end;
+}
+
+/* 슬라이드 3 */
+.slide3 {
+    background-color: #fffac5;
+    height: 80vh; /* 높이를 줄여서 스크롤이 가능하게 설정 */
+    overflow-y: auto; /* 세로 스크롤 가능하도록 설정 */
+}
+
+/* 스크롤바 숨기기 */
+.slide3::-webkit-scrollbar {
+    display: none; /* 스크롤바 숨기기 */
+}
+
+/* 다른 브라우저에서도 스크롤바 숨기기 */
+.slide3 {
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.slide3 .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 왼쪽 정렬 */
+    justify-content: flex-start; /* 시작점에 정렬 */
+    height: 100%;
+    padding: 20px;
+    position: relative; /* relative 추가 */
+}
+
+.scroll-text {
+    position: absolute; /* 절대 위치 */
+    margin-top: 10px;
+    bottom: 10px; /* 아래쪽 여백 */
+    left: 50%; /* 가운데 정렬을 위한 left */
+    transform: translateX(-50%); /* 가운데 정렬을 위한 transform */
+    font-size: 16px; /* 글씨 크기 */
+    color: #000; /* 글씨 색 */
+
+}

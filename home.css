@@ -1,4 +1,10 @@
+@font-face {
+    font-family: '210 Ohneulbam R';  /* 폰트 이름을 지정 */
+    src: url('210 Ohneulbam R.ttf') format('truetype');
+}
+
 body {
+    font-family: 'MyCustomFont', '210 Ohneulbam R'; /* 새 폰트 적용 */
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -7,10 +13,14 @@ body {
     margin: 0;
 }
 
-  .swiper-slide h1 {
-    color: #000000;
-    font-size: 30px;
-  }  
+.firstpage h1 {
+    height: 35px;
+    font-size: 50px;
+    color: rgb(255, 128, 128);
+
+}
+
+ 
   
   /* 특정 텍스트 요소에 적용하기 */
   .swiper-slide p {
@@ -193,4 +203,20 @@ body {
     font-size: 16px; /* 글씨 크기 */
     color: #000; /* 글씨 색 */
 
+}
+
+.image1 {
+    width: 400px;   /* 상자의 너비 */
+    height: 400px;  /* 상자의 높이 */
+    padding-left: 10px;  /* 상자 내부 여백 */
+    text-align: left; 
+    border-top: 150px;
+    padding-bottom: 10px;
+}
+
+.image1 img {
+    max-width: 600px;  
+    max-height: 500px; 
+    padding-bottom: 10px;
+    padding-top: 50px;
 }

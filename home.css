@@ -17,7 +17,7 @@ body {
     height: 35px;
     font-size: 50px;
     color: rgb(255, 128, 128);
-
+    margin-left: 30px;
 }
 
 
@@ -58,6 +58,7 @@ body {
     text-align: center;
     font-size: 18px;
     color: rgb(35, 236, 96);
+    
 }
 
 .swiper-slide4 {
@@ -252,3 +253,4 @@ body {
     padding-bottom: 10px;
     padding-top: 50px;
 }
+

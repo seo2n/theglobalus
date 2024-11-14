@@ -140,7 +140,7 @@ body {
 /* 슬라이드 3 */
 .slide3 {
     background-color: #f6f3e9;
-    height: 80vh; /* 높이를 줄여서 스크롤이 가능하게 설정 */
+    height: 92%; /* 높이를 줄여서 스크롤이 가능하게 설정 */
     overflow-y: auto; /* 세로 스크롤 가능하도록 설정 */
 }
 

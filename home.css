@@ -201,16 +201,20 @@ body {
     margin-bottom: 0;
 }
 
-.app h1 .app h3{
+.app h1  {
     color: #48a13d;
-    position: absolute; /* 절대 위치 */
-    margin-top: 10px;
-    bottom: 10px; /* 아래쪽 여백 */
-    left: 50%; /* 가운데 정렬을 위한 left */
-    transform: translateX(-50%); /* 가운데 정렬을 위한 transform */
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
 
-
-
+.app h3 {
+    color: #48a13d;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .app h5{

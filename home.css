@@ -176,4 +176,10 @@ body {
 
 }
 
+.app h1{
+    color: #48a13d;
+}
 
+.app h5{
+   font-size: 12px; 
+}

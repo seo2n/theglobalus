@@ -180,6 +180,7 @@ body {
 
 }
 
+
 .header h1 {
     color: #0dba04;
     margin-left: 0px;
@@ -214,6 +215,14 @@ body {
 }
 
 .appname h3 {
+    color: #48a13d;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.app-click h4{
     color: #48a13d;
     margin-left: 0px;
     text-align: center;
@@ -300,3 +309,4 @@ body {
     transform: rotate(-15deg); 
 
 }
+

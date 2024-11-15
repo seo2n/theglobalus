@@ -225,7 +225,7 @@ body {
    font-size: 12px; 
 }
 
-.app-kakaomap h5{
+.app-kakaomap h3{
     color: #d4b301;
     text-align: center;
 }
@@ -235,25 +235,25 @@ body {
     align-items: center; /* 세로 중앙 정렬 */
     justify-content: center; /* 가로 중앙 정렬 */
     margin-top: 20px;
-    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+    gap: 50px; /* 텍스트와 이미지 사이의 간격 */
 }
 
 .app-kakaomap img {
     width: 120px; /* 이미지 크기 조정 */
     height: 120px;
+    transform: rotate(25deg); /* 45도 회전 */
 }
 
-.app-navermap h5{
+.app-navermap h3{
     color: #0dba04;
     text-align: center;
 }
 
-.app-navermap {
+.app-navermap{
     display: flex;
     align-items: center; /* 세로 중앙 정렬 */
     justify-content: center; /* 가로 중앙 정렬 */
-    margin-top: 20px;
-    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+    gap: 50px; /* 텍스트와 이미지 사이의 간격 */
 }
 
 .app-navermap img {
@@ -261,7 +261,7 @@ body {
     height: 120px;
 }
 
-.app-translate h5{
+.app-translate h3{
     color:  #4a4a4a;
     text-align: center;
 }
@@ -270,8 +270,7 @@ body {
     display: flex;
     align-items: center; /* 세로 중앙 정렬 */
     justify-content: center; /* 가로 중앙 정렬 */
-    margin-top: 20px;
-    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+    gap: 50px; /* 텍스트와 이미지 사이의 간격 */
 }
 
 .app-translate img {
@@ -279,7 +278,7 @@ body {
     height: 120px;
 }
 
-.app-papago h5{
+.app-papago h3{
     color: #177fea;
     text-align: center;
 }
@@ -288,8 +287,7 @@ body {
     display: flex;
     align-items: center; /* 세로 중앙 정렬 */
     justify-content: center; /* 가로 중앙 정렬 */
-    margin-top: 20px;
-    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+    gap: 50px; /* 텍스트와 이미지 사이의 간격 */
 }
 
 .app-papago img {

@@ -224,3 +224,75 @@ body {
 .appname h5{
    font-size: 12px; 
 }
+
+.app-kakaomap h5{
+    color: #d4b301;
+    text-align: center;
+}
+
+.app-kakaomap {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    margin-top: 20px;
+    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+}
+
+.app-kakaomap img {
+    width: 120px; /* 이미지 크기 조정 */
+    height: 120px;
+}
+
+.app-navermap h5{
+    color: #0dba04;
+    text-align: center;
+}
+
+.app-navermap {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    margin-top: 20px;
+    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+}
+
+.app-navermap img {
+    width: 120px; /* 이미지 크기 조정 */
+    height: 120px;
+}
+
+.app-translate h5{
+    color: #0dba04;
+    text-align: center;
+}
+
+.app-translate {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    margin-top: 20px;
+    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+}
+
+.app-translate img {
+    width: 120px; /* 이미지 크기 조정 */
+    height: 120px;
+}
+
+.app-papago h5{
+    color: #0dba04;
+    text-align: center;
+}
+
+.app-papago {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    margin-top: 20px;
+    gap: 10px; /* 텍스트와 이미지 사이의 간격 */
+}
+
+.app-papago img {
+    width: 120px; /* 이미지 크기 조정 */
+    height: 120px;
+}

@@ -241,7 +241,7 @@ body {
 .app-kakaomap img {
     width: 120px; /* 이미지 크기 조정 */
     height: 120px;
-    transform: rotate(25deg); /* 45도 회전 */
+    transform: rotate(15deg); 
 }
 
 .app-navermap h3{
@@ -259,6 +259,8 @@ body {
 .app-navermap img {
     width: 120px; /* 이미지 크기 조정 */
     height: 120px;
+    transform: rotate(-15deg); 
+
 }
 
 .app-translate h3{
@@ -276,6 +278,8 @@ body {
 .app-translate img {
     width: 120px; /* 이미지 크기 조정 */
     height: 120px;
+    transform: rotate(15deg); 
+
 }
 
 .app-papago h3{
@@ -293,4 +297,6 @@ body {
 .app-papago img {
     width: 120px; /* 이미지 크기 조정 */
     height: 120px;
+    transform: rotate(-15deg); 
+
 }
